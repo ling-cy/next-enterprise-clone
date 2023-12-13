@@ -1,6 +1,6 @@
+import { Button } from "components/Button/Button"
 import { GetServerSidePropsContext } from "next"
 import Head from "next/head"
-import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "../lp-items"
 
 export default function Web() {
@@ -29,13 +29,13 @@ export default function Web() {
               enjoyable development process.
             </p>
             <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
+              CTA
             </Button>
             <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
+              href="/product/product-a"
               intent="secondary"
             >
-              Deploy Now
+              Product A
             </Button>
           </div>
         </div>
